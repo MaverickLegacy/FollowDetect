@@ -23,8 +23,9 @@ from absl import flags
 import tensorflow as tf
 
 import sys
-sys.path.append("C:\\Users\\masri\\Documents\\models-master\\models-master\\research\\")
-sys.path.append("C:\\Users\\masri\\Documents\\models-master\\models-master\\research\\object_detection\\")
+sys.path.append("/content/FollowDetect/research/slim")
+sys.path.append("/content/FollowDetect/research/")
+sys.path.append("/content/FollowDetect/research/object_detection")
 
 from object_detection import model_hparams
 from object_detection import model_lib
