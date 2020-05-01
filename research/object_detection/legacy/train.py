@@ -47,6 +47,11 @@ import os
 import tensorflow as tf
 from tensorflow.contrib import framework as contrib_framework
 
+import sys
+sys.path.append("/content/FollowDetect/research/slim")
+sys.path.append("/content/FollowDetect/research/")
+sys.path.append("/content/FollowDetect/research/object_detection")
+
 from object_detection.builders import dataset_builder
 from object_detection.builders import graph_rewriter_builder
 from object_detection.builders import model_builder
