@@ -103,6 +103,11 @@ python export_inference_graph.py \
               } \
             }"
 """
+import sys
+sys.path.append("/content/FollowDetect/research/slim")
+sys.path.append("/content/FollowDetect/research/")
+sys.path.append("/content/FollowDetect/research/object_detection")
+
 import tensorflow as tf
 from google.protobuf import text_format
 from object_detection import exporter
